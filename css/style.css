@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+  font-family: "Noto Serif", serif;
+}
+html::-webkit-scrollbar-track {
+  background: transparent;
+}
+html::-webkit-scrollbar-thumb {
+  background-color: aqua;
+  border-radius: 10px;
+}
+html::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Navbar */
+#logo img {
+  width: 75px;
+}
+.nav-item .nav-link {
+  color: black;
+  font-size: 16px;
+  font-weight: 550;
+  transition: 0.5s;
+}
+.nav-item .nav-link:hover {
+  color: rgb(82, 211, 216);
+}
+#navbar input {
+  border-radius: 50px;
+}
+/* Akhir Navbar */
+
+/* Home */
+.home {
+  width: 100%;
+  height: 100vh;
+  padding: 5px 11% 80px;
+  display: flex;
+  background: url(../img/backround\ juice.jpg);
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 0;
+}
+.home h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+#home-btn:hover {
+  background-color: rgb(14, 15, 15);
+  color: white;
+  border: 2px solid rgb(21, 247, 21);
+}
+.line {
+  height: 5px;
+  width: 20%;
+  background-color: rgb(21, 247, 21);
+  display: inline-block;
+}
+/* Akhir Home */
+
+/* About */
+.about {
+  background-image: url(../img/bg\ about.png);
+  background-size: cover;
+  height: 120vh;
+  width: 100%;
+}
+.about h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.about p:nth-child(1) {
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 100px;
+}
+.about p:nth-child(2) {
+  font-size: 18px;
+  color: grey;
+}
+/* Akhir About */
+
+/* Services */
+.service-section h5 {
+  color: white;
+  text-align: center;
+}
+.service-section h1 {
+  margin-top: 62px;
+  color: black;
+  text-align: center;
+  font-weight: 500;
+}
+.service-section .row {
+  margin-top: 30px;
+  align-items: center;
+}
+.row-section .row .card {
+  border: none;
+}
+.service-section .row .row img {
+  width: 200px;
+  margin: auto;
+}
+.service-section .card-body {
+  text-align: center;
+}
+.service-section .card-body h1 {
+  font-size: 25px;
+  font-weight: 500;
+}
+/* Akhir Services */
+
+/* Menu */
+.menu h1 {
+  text-align: center;
+  color: black;
+}
+.menu h3 {
+  text-align: center;
+  color: rgb(82, 211, 216);
+  font-weight: 500;
+}
+.menu h6 {
+  font-size: 20px;
+  text-align: center;
+}
+.rating i {
+  color: yellow;
+  font-size: 13px;
+}
+.menu p i {
+  float: right;
+  color: black;
+  cursor: pointer;
+  align-items: center;
+}
+.seller i {
+  color: yellow;
+}
+.seller.card {
+  border-radius: 0;
+  border: none;
+}
+/* Akhir Menu */
+
+/* Contact */
+.menu textarea {
+  resize: none;
+}
+.contact-btn {
+  margin-top: 20px;
+  border: 2px solid white;
+  padding: 10px;
+  text-decoration: none;
+  background: rgb(82, 211, 216);
+  color: white;
+  border-radius: 8px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.contact-btn:hover {
+  background: rgb(21, 247, 21);
+  color: white;
+}
+
+/* Akhir Contact */
+
+/* Footer */
+.footer-content i {
+  font-size: 18px;
+  color: black;
+  background-color: rgb(82, 211, 216);
+  padding: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.circle p {
+  text-align: center;
+}
+.footer-content i:hover {
+  background: rgb(21, 247, 21);
+  color: white;
+  border-radius: 100%;
+}
+/* Akhir Footer */

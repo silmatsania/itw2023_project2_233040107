@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Juice</title>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css" />
+    
+    <!--  Boostrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <!-- Boostrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" />
+
+    <!-- Fond Awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm fixed-top bg-light" style=" padding: 0px 9% 0px;"  id="navbar">
+      <a href="index.html" class="navbar-brand" id="logo"> <img src="img/logo 1.jpg" alt="" /></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span><i class="fa-solid fa-bars"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#services" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="#menu" class="nav-link">Product</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+
+        <form class="d-flex">
+          <input type="text" class="form-control me-2" placeholder="Search" required />
+          <button type="button" id="btn" style="border-radius: 5px; padding: 5px;border: 1px solid rgb(82, 211, 216);background-color: transparent;transition: 0.5s;">Search</button>
+        </form>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Home -->
+    <section class="home" id="home">
+      <div class="home-content" style=" flex: 1 1 400%; margin-top: 30px;">
+        <h1>Juicy'n Juicy </h1>
+         <div class="line my-4 h-6 w-30"></div>
+        <p>Offering a diverse selection of fresh juices from a wide array of fruits, <br> along with a selection of succulent fresh fruits for sale.</p>
+        <a href="#our-menu" id="home-btn" style="padding: 10px;  text-decoration: none; background: rgb(21, 247, 21); color: white; border-radius: 7px;">Order Now</a>
+      </div>
+    </section>
+<!-- Akhir Home -->
+
+    <!-- about -->
+    <section class="about py-5 bg-light" id="about">
+      <div class="container py-5">
+        <div class="row py-5">
+          <div class="col-lg-5 py-5 offset-lg-7 col-md-6 c0l-sm-12 col-12">
+            <p class="m-0">Best Product</p>
+            <h1>About Us</h1>
+            <div class="line my-4"></div>
+            <p>We combine deliciousness with health. Our products come from high quality sources, providing natural flavors and optimal nutrition. We believe that every sip should provide satisfaction without sacrificing health aspects.</p>
+            <a href="#our-menu" id="home-btn" style="padding: 10px;  text-decoration: none; background: rgb(21, 247, 21); color: white; border-radius: 7px;">Read More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir About -->
+
+    <!-- Services -->
+    <div class="service-section" style=" padding: 10px 15% 100px; background-color: rgb(82, 211, 216);" id="services"> 
+      <h1>Our Services</h1>
+      <div class="line2 my-4" style="height: 5px;  width: 100%; background-color: rgb(20, 219, 20); display: inline-block;"></div>
+      <h5>High quality Juice & Delivery Partner</h5>
+      <div class="row">
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="img/receive.jpg" alt="" />
+            <div class="card-body">
+              <h1>Receive Order</h1>
+              <p>We accept orders for various juices and smoothies for delivery.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="img/payment.jpg" alt="" />
+            <div class="card-body">
+              <h1>Easy Payment</h1>
+              <p>You have flexibility to payments directly or through m-banking.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="img/delivery.jpg" alt="" />
+            <div class="card-body">
+              <h1>Free Delivery</h1>
+              <p>Our hight-quality products are available for delivery anywhere.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- Akhir Services -->
+
+    <!-- Menu Juice -->
+    <section class="menu" style="padding: 100px 11% 100px;" id="menu">
+      <h1>Our Menu</h1>
+      <div class="line" style=" width: 100%; height: 4px; background-color: rgb(82, 211, 216);" ></div>
+      <h3>Premium Juice</h3>
+      <div class="row" style="margin-top:30px">
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="img/jambu.jpg" alt="" />
+            <div class="card-body">
+              <h3>Guava Juice</h3>
+              <h6>16.000</h6>
+              <div class="rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>  
+              </div>
+              <p><i class="fa-solid fa-creadit-card"></i></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="img/melon.jpg" alt="" />
+            <div class="card-body">
+              <h3>Melon Juice</h3>
+              <h6>15.000</h6>
+              <div class="rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i> 
+              </div>
+              <p><i class="fa-solid fa-creadit-card"></i></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="img/anggur.jpg" alt="" />
+            <div class="card-body">
+              <h3>Grape Juice</h3>
+              <h6>18.000</h6>
+              <div class="rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+                <i class="bi bi-star"></i>
+              </div>
+              <p><i class="fa-solid fa-creadit-card"></i></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="img/jeruk.jpg" alt="" />
+            <div class="card-body">
+              <h3>Orange Juice</h3>
+              <h6>15.000</h6>
+              <div class="rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p><i class="fa-solid fa-creadit-card"></i></p>
+            </div>
+          </div>
+        </div>        
+        <div class="row" style="margin-top:35px">
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="img/semagngka.jpg" alt="" />
+            <div class="card-body">
+              <h3>Watermelon Juice</h3>
+              <h6>15.000</h6>
+              <div class="rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+                <i class="bi bi-star"></i>
+              </div>
+              <p><i class="fa-solid fa-creadit-card"></i></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="img/delima.jpg" alt="" />
+            <div class="card-body">
+              <h3>Pomegrane Juice</h3>
+              <h6>20.000</h6>
+              <div class="rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p><i class="fa-solid fa-creadit-card"></i></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="img/nanas.jpg" alt="" />
+            <div class="card-body">
+              <h3>Pineapple Juice</h3>
+              <h6>15.000</h6>
+              <div class="rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+              </div>
+              <p><i class="fa-solid fa-creadit-card"></i></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="img/jeruk merah.jpg" alt="" />
+            <div class="card-body">
+              <h3>Grapefruit Juice</h3>
+              <h6>11.000</h6>
+              <div class="rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+                <i class="bi bi-star"></i>
+              </div>
+              <p><i class="fa-solid fa-creadit-card"></i></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Menu Juice -->
+
+<!-- Menu Smoothies -->
+    <section class="menu" style="padding: 100px 11% 100px;" id="menu">
+      <h3>Smoothies</h3>
+      <div class="container">
+  <div class="line" style=" width: 100%; height: 4px; background-color: rgb(82, 211, 216);" ></div>
+</div>
+<div class="row" style="margin-top:30px">
+  <div class="col-md-3 py-3 py-md-0">
+    <div class="card">
+      <img src="img/banana.jpg" alt="" />
+      <div class="card-body">
+        <h3>Banana Smoothies</h3>
+        <h6>15.000</h6>
+        <div class="rating">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+        </div>
+        <p><i class="fa-solid fa-creadit-card"></i></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3 py-3 py-md-0">
+    <div class="card">
+      <img src="img/banana and strawberry.jpg" alt="" />
+      <div class="card-body">
+        <h3>Banberry Smoothies</h3>
+        <h6>20.000</h6>
+        <div class="rating">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+        </div>
+        <p></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3 py-3 py-md-0">
+    <div class="card">
+      <img src="img/alpukat smoothies.jpg" alt="" />
+      <div class="card-body">
+        <h3>Avocado Smoothies</h3>
+        <h6>15.000</h6>
+        <div class="rating">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star"></i>
+        </div>
+        <p><i class="fa-solid fa-creadit-card"></i></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3 py-3 py-md-0">
+    <div class="card">
+      <img src="img/strawberry smoothies.jpg" alt="" />
+      <div class="card-body">
+        <h3>Strawberry Smoothies</h3>
+        <h6>15.000</h6>
+        <div class="rating">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+        </div>
+        <p><i class="fa-solid fa-creadit-card"></i></p>
+      </div>
+      </div>
+    </div>
+</section>
+<!-- Akhir Menu Smoothies -->
+
+
+<!--  Menu Buah -->
+<section class="menu" style="padding: 100px 11% 100px;" id="menu">
+  <h3>Fresh Fruit</h3>
+  <div class="container">
+<div class="line" style=" width: 100%; height: 4px; background-color: rgb(82, 211, 216);" ></div>
+</div>
+   <section class="seller">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+      </div>
+      <div class="row g-2 py-2">
+        <div class="col-lg-6">
+          <div class="card">
+            <div class="row">
+              <div class="col-lg-6"><img src="img/lemon sell 2.jpg" class="img-fluid" alt=""></div>
+            <div class="col-lg-6 p-5">
+              <span><i class="bi bi-star-fill"></i></span>
+              <span><i class="bi bi-star-fill"></i></span>
+              <span><i class="bi bi-star-fill"></i></span>
+              <span><i class="bi bi-star-fill"></i></span>
+              <h5>Lemon</h5>
+              <h5>7,000</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="col-lg-6">
+          <div class="card">
+            <div class="row">
+              <div class="col-lg-6"><img src="img/apell sell.jpg" class="img-fluid" alt=""></div>         
+            <div class="col-lg-6 p-5">
+              <span><i class="bi bi-star-fill"></i></span>
+              <span><i class="bi bi-star-fill"></i></span>
+              <span><i class="bi bi-star-fill"></i></span>
+              <span><i class="bi bi-star-fill"></i></span>            
+              <h5>Apple</h5>
+              <h5>7,000</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="col-lg-6">
+          <div class="card">
+            <div class="row">
+              <div class="col-lg-6"><img src="img/strawberry.jpg" class="img-fluid" alt=""></div>            
+            <div class="col-lg-6 p-5">
+              <span><i class="bi bi-star-fill"></i></span>
+              <span><i class="bi bi-star-fill"></i></span>
+              <span><i class="bi bi-star-fill"></i></span>
+              <span><i class="bi bi-star"></i></span>
+              <h5 >Strawberry</h5>
+              <h5 >5,000</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="col-lg-6">
+          <div class="card">
+            <div class="row">
+              <div class="col-lg-6"><img src="img/nangka sell.jpg" class="img-fluid" alt=""></div>           
+            <div class="col-lg-6 p-5">
+              <span><i class="bi bi-star-fill"></i></span>
+              <span><i class="bi bi-star-fill"></i></span>
+              <span><i class="bi bi-star-fill"></i></span>
+              <span><i class="bi bi-star"></i></span>
+              <h5>Jackfruit</h5>
+              <h5>7,000</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="col-lg-6">
+          <div class="card">
+            <div class="row">
+              <div class="col-lg-6"><img src="img/mangga sell 2.jpg" class="img-fluid" alt=""></div>            
+            <div class="col-lg-6 p-5">
+              <span><i class="bi bi-star-fill"></i></span>
+              <span><i class="bi bi-star-fill"></i></span>
+              <span><i class="bi bi-star-fill"></i></span>
+              <span><i class="bi bi-star-fill"></i></span>             
+              <h5>Mango</h5>
+              <h5 >7,000</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="col-lg-6">
+          <div class="card">
+            <div class="row">
+              <div class="col-lg-6"><img src="img/alpukat.jpg" class="img-fluid" alt=""></div>            
+            <div class="col-lg-6 p-5">
+              <span><i class="bi bi-star-fill"></i></span>
+              <span><i class="bi bi-star-fill"></i></span>
+              <span><i class="bi bi-star-fill"></i></span>
+              <span><i class="bi bi-star-fill"></i></span>            
+              <h5>Avocado</h5>
+              <h5 >10,000</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="col-lg-6">
+          <div class="card">
+            <div class="row">
+              <div class="col-lg-6"><img src="img/pir sell.jpg" class="img-fluid" alt=""></div>            
+            <div class="col-lg-6 p-5">
+              <span><i class="bi bi-star-fill"></i></span>
+              <span><i class="bi bi-star-fill"></i></span>
+              <span><i class="bi bi-star-fill"></i></span>
+              <span><i class="bi bi-star-fill"></i></span>             
+              <h5>Pear</h5>
+              <h5 >10,000</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="col-lg-6">
+          <div class="card">
+            <div class="row">
+              <div class="col-lg-6"><img src="img/manggis.jpg" class="img-fluid" alt=""></div>            
+            <div class="col-lg-6 p-5">
+              <span><i class="bi bi-star-fill"></i></span>
+              <span><i class="bi bi-star-fill"></i></span>
+              <span><i class="bi bi-star-fill"></i></span>
+              <span><i class="bi bi-star"></i></span>
+              <h5 >Mangoteen</h5>
+              <h5 >8,000</h5>
+            </div>
+          </div>
+        </div>
+ </section>
+ </section>
+<!-- Akhir Menu Buah -->
+
+
+<!-- Contact -->
+
+<section class="contact" style=" padding: 100px 11% 80px; background-color: rgb(82, 211, 216);" id="contact">
+  <div class="heading text-center" style=" font-size: 25px;">
+     <h1>Our Contact</h1></div>
+     <div class="line mb-5" style=" width: 100%; height: 4px; background-color: rgb(21, 247, 21) ;" ></div>
+  <div class="row">
+    <div class="col-md-5 py-3 py-md-0">
+      <div class="card">
+        <img src="img/contact.jpg" alt="">
+      </div>
+    </div>
+
+    <div class="col-md-7 py-3 py-md-0">
+      <form action="#">
+
+        <div class="mb-3 mt-3">
+<input type="text" class="form-control" id="name" placeholder="Your Name" required>
+   </div>
+        <div class="mb-3 mt-3">
+<input type="email" class="form-control" id="email" placeholder="Your Email" required>
+   </div>
+        <div class="mb-3 mt-3">
+<input type="number" class="form-control" id="number" placeholder="Your Number" required>
+   </div>
+      
+   <textarea class="form-control" id="comment" rows="5" name="text" placeholder="Your Address" required></textarea> 
+ <button type="submit" class="contact-btn"> Order Now</button>
+      </form>
+    </div>
+  </div>
+</section>
+<!-- Akhir Contact -->
+
+<!-- Footer -->
+<footer id="footer bg-light" style=" padding: 15px 11% 15px;">
+  <div class="footer-content text-center" >
+    <div class="footer-logo"><img src="" alt=""></div>
+    <p>Jl. Gegerkalong Girang  No.23, Gegerkalong, Kec. Sukasari, Kota Bandung, Jawa Barat.</p>
+    <div class="line" style=" width: 50%; height: 2px; background-color: rgb(82, 211, 216);" ></div>
+    <p>0812-6234-5632</p>
+    <i class="bi bi-whatsapp"></i>
+    <i class="bi bi-facebook"></i>
+    <i class="bi bi-instagram"></i>
+  </div>
+  <br>
+  <div class="c-content text-center">
+    &copy; Copyright; 2023 Silma. All Rights Reserved.
+  </div>
+</footer>
+<!-- Akhir Footer -->
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
